@@ -1,6 +1,7 @@
 source 'https://rubygems.org'
 
 
+gem 'faker'
 gem 'bower-rails'
 gem 'devise'
 
