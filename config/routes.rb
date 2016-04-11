@@ -6,4 +6,7 @@ Rails.application.routes.draw do
   get 'dashboard/index'
 
   resources :customers, only: [:index]
+
+  get 'angular_test', to: "angular_test#index"
+  
 end
